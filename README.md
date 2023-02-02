@@ -95,3 +95,11 @@ Since the Random Forest performed really well with the data, it was a plausible 
 To train the model for Decision Tree, first I created the model. I used X_train and Y_train to train the model. To test the model, I used X_valid and assign the predicted output to DT_Pred. Also, I calculated the MAE, MSE and accuracy score. 
 
 
+## Results and Comparison Analysis
+To compare each model’s performance and accuracy for the given dataset MAE, MSE and accuracy score is used. The comparison between these values is shown in the given table.
+
+![image](https://user-images.githubusercontent.com/61236166/216433551-49055023-6799-42d6-b766-5ac780b5fe3d.png)
+
+From the above table we can see the comparison between all the three models. Linear regression has the maximum of mean square error and mean absolute error and have the least accuracy for the given dataset which is 60.47%. while random forest has the minimum mean square error and mean absolute error and have the maximum accuracy which is 79.09%. So, for this study random forest is the best choice for the prediction of the house price and linear regression is not a good choice for the given dataset. Decision tree model perform better than Linear regression but not better than Random Forest.
+
+### I hope you enjoyed a brief explanation of the project. You can find the entire code in housingpriceprediction.ipynb file and all you need is jupyter notebook installed on your laptop/pc to run the project.Do share your feedbacks on the project and if you have any questions, you can always reach out to me.
